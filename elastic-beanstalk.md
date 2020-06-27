@@ -3,8 +3,7 @@ Elastic Beanstalk
 
 This service is used to deploy and scale services and web applications developed on Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker. Think on Beanstalk as the Heroku of AWS.
 
-Highlights:
------------
+### Highlights
 
 -	Beanstalk handles the deployment, capacity, load balancing, auto scaling and health check
 -	This is a free service, you pay only for the services it provision.

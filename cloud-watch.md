@@ -3,8 +3,7 @@ CloudWatch
 
 CloudWatch is the service for monitoring and observability on the cloud, it provides insights to monitor your applications, optimize resoure utilization, and get a unified view of operational health.
 
-Highlights
-----------
+### Highlights
 
 -	Is a collection of monitoring services: Metrics, Logs, Events, Alarms and Dashboards
 -	**CloudWatch Metrics** Is a time ordered sets of data points.

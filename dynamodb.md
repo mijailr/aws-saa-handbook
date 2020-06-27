@@ -3,8 +3,7 @@ DynamoDB
 
 DynamoDB is the AWS service for managed NoSQL [key: value] storage, think on DynamoDB as the MongoDB of AWS.
 
-Highlights
-----------
+### Highlights
 
 -	Recommended for applications with a predictable read and write performance.
 -	Data is stored on 3 copies across 3 regions.

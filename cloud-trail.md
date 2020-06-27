@@ -3,8 +3,7 @@ CloudTrail
 
 CloudTrail is for monitoring API calls between AWS services to enable governance, compliance, operational auditing and risk auditing on your AWS Account.
 
-Highlights
-----------
+### Highlights
 
 -	When you see questions talking about governance, compliance, operational auditing and risk auditing the answer is CloudTrail.
 -	Can track 2 types of events: **Management Events** and **Data Events**.
