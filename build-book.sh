@@ -7,12 +7,14 @@ docker run -v $PWD:/source jagregory/pandoc \
   -o aws-saa-preparation.docx --toc --toc-depth=1 title.txt \
   introduction.md \
   elastic-beanstalk.md \
-  dynamodb.md
+  dynamodb.md \
+  cloud-watch.md
 
 # Generate EPUB
 docker run -v $PWD:/source jagregory/pandoc \
   -o aws-saa-preparation.epub --toc --toc-depth=1 title.txt \
   introduction.md \
   elastic-beanstalk.md \
-  dynamodb.md
+  dynamodb.md \
+  cloud-watch.md
 
