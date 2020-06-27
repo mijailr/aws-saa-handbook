@@ -1,0 +1,15 @@
+name: Linter
+on:
+  push:
+    branches-ignore:
+      - 'master'
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Lint codebase
+        uses: docker://github/super-linter:v2.2.0
+
