@@ -19,4 +19,4 @@ Highlights
 -	Can apply a Trail for an Organization.
 -	You can encrypt the logs using SSE-KMS.
 -	Can enable **Log File Validation** to ensure log integrity.
--	You can sent **CloudTrail** logs to [**CloudWatch**](CloudWatch.md) to enable notifications on specific activities.
+-	You can sent **CloudTrail** logs to [**CloudWatch**](#cloudwatch) to enable notifications on specific activities.
