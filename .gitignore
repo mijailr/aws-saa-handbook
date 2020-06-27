@@ -1,0 +1,5 @@
+# Ignore outputs
+*.epub
+*.docx
+*.doc
+*.pdf
