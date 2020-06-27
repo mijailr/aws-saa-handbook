@@ -8,7 +8,8 @@ docker run -v $PWD:/source jagregory/pandoc \
   introduction.md \
   elastic-beanstalk.md \
   dynamodb.md \
-  cloud-watch.md
+  cloud-watch.md \
+  cloud-trail.md
 
 # Generate EPUB
 docker run -v $PWD:/source jagregory/pandoc \
@@ -16,5 +17,6 @@ docker run -v $PWD:/source jagregory/pandoc \
   introduction.md \
   elastic-beanstalk.md \
   dynamodb.md \
-  cloud-watch.md
+  cloud-watch.md \
+  cloud-trail.md
 
