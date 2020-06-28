@@ -39,8 +39,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./aws-saa-preparation.pdf
-          asset_name: aws-saa-preparation.pdf
+          asset_path: ./aws-saa-handbook.pdf
+          asset_name: aws-saa-handbook.pdf
           asset_content_type: application/pdf
       - name: Upload EPUB
         uses: actions/upload-release-asset@v1
@@ -48,6 +48,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./aws-saa-preparation.epub
-          asset_name: aws-saa-preparation.epub
+          asset_path: ./aws-saa-handbook.epub
+          asset_name: aws-saa-handbook.epub
           asset_content_type: application/epub+zip

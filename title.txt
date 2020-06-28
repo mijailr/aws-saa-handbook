@@ -1,7 +1,0 @@
----
-title: AWS Solutions Architect Associate Exam Preparation Cheat Sheet
-author: Mijail Rondon
-rights: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-language: en-EC
-cover-image: cover.png
-...
