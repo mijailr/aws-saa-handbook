@@ -10,6 +10,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Lint codebase
-        uses: docker://github/super-linter:v2.2.0
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt;
+      - name: Lint markdown
+        uses: actionshub/markdownlint@master
 
